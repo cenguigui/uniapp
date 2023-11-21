@@ -1,9 +1,8 @@
 import { http } from "./index";
 // 获取歌曲地址
-// export const songUrl = (params) => uni.$kmir.http.request({
-//     // url: `song/url/v1?id=${params.id}&level=exhigh`
-// });
-export const songUrl = `https://api.cenguigui.cn/api/api.php?id=${params.id}`;
+export const songUrl = (params) => uni.$kmir.http.request({
+    // url: `song/url/v1?id=${params.id}&level=exhigh`
+});
 // banner图
 export const banner = () => uni.$kmir.http.request({
     url: `banner?type=2`

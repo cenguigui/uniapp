@@ -1,0 +1,87 @@
+.container {
+    padding-top: var(--status-bar-height);
+
+}
+
+
+
+.song-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+    gap: 20px;
+    // padding: 0 10px;
+}
+.search-input {
+    margin: 10px;
+    background-color: #fff !important;
+  }
+.song-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 8px;
+    margin: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+    backdrop-filter: blur(10px);
+}
+
+.song-card {
+    position: relative;
+    width: 100%;
+}
+
+.play-count {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 4px 8px;
+    border-radius: 30px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    font-size: 12px;
+}
+
+.header {
+    padding-top: var(--status-bar-height);
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    // background-color: #333;
+    color: #fff;
+}
+
+.mv-logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+    color: #000;
+}
+
+.user-avatar {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+
+.song-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.song-title {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.song-artist {
+    margin-right: 5px;
+}
